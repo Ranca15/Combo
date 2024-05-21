@@ -49,8 +49,7 @@ body{
     color: var(--cinza-secundario);
 }
 .container___titulo {
-    font-size: 28px;
-    font-weight: 700;
+    margin:1em 0 2em 0;
 }
 .container__imagem {
     margin: 1em 0 2em 0;
@@ -58,3 +57,20 @@ body{
 .container__caixa {
     margin: 0 6em;
 }
+.secundario__imagem {
+    width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
